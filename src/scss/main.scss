@@ -123,13 +123,19 @@ header {
   padding-bottom: 10px;
 }
 
-.section2-container {
+.container-large {
+  background-color: #eff9ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   line-height: 50px;
-  background-color: blue;
 }
 
 .section-main-title-2 {
@@ -139,13 +145,11 @@ header {
   font-weight: 500;
   text-transform: capitalize;
   padding: 15px;
-  background-color: blue;
 }
 
-.section3-container {
+.section3-article {
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: blue;
 }
 
 .section-main-title-3 {
@@ -162,6 +166,26 @@ header {
   font-size: 16px;
   color: #000000;
   text-align: center;
+  justify-content: center;
+  max-width: 25ch;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+}
+
+.button-large {
+  background-color: #f26002;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 100px;
+  border-radius: 24px;
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 10px;
 }
 
 // .fa-heart {
