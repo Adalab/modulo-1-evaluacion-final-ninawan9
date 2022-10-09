@@ -1,5 +1,6 @@
+@import "core/reset";
+
 // @import 'core/variables';
-// @import 'core/reset';
 // @import 'components/code';
 // @import 'components/links';
 // @import 'layout/page';
@@ -13,8 +14,140 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
+  background-color: #fff;
 }
 
-body {
-  background-color: white;
+header {
+  display: flex;
+  flex-direction: column;
 }
+
+.background {
+  background-image: url("../images/cover.jpeg");
+  width: 100vw;
+  height: 90vh; /* Porque si no especifico una altura la imagen no será visible */
+  background-size: cover; /* Para que la imagen no se deforme al adaptarse a cada pantalla */
+  background-position: center; /* Para centrar la imagen horizontal y verticalmente en el contenedor */
+  background-repeat: no-repeat; /* Para que no repita la imagen */
+}
+
+.nav-burger-menu {
+  display: flex;
+  flex-direction: flex-start;
+  position: fixed;
+  background-color: #0171bb;
+  padding: 15px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.header-title {
+  justify-content: center;
+  font-size: 42px;
+  text-transform: uppercase;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+.header-subtitle {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 32px;
+}
+
+.icon-arrow-down {
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  border-radius: 50%;
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-text {
+  color: #8ccbea;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+  text-transform: capitalize;
+  padding-left: 15px;
+}
+
+.section-title {
+  color: #000000;
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 15px;
+}
+
+.section-paragraphy {
+  color: #4a4a4a;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-left: 15px;
+  font-weight: 350;
+  line-height: 24px;
+}
+
+.button-medium {
+  color: #f26002;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 450;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-left: 15px;
+  line-height: 100px;
+  border: 2px solid #f26002;
+  border-radius: 24px;
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 10px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-title-h3 {
+  width: 50vw;
+  color: #000000;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.section-paragraphy-left {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+/*
+.fa-heart {
+  color: red;
+}
+/*
