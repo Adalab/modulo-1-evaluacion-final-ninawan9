@@ -88,7 +88,7 @@ header {
   padding-left: 15px;
 }
 
-.section-main-title {
+.section-main-title-1 {
   color: #000000;
   font-family: "Roboto Slab", serif;
   font-size: 24px;
@@ -123,29 +123,47 @@ header {
   padding-bottom: 10px;
 }
 
-.section2 {
+.section2-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  line-height: 50px;
+  background-color: blue;
 }
 
-.section-title-h3 {
-  width: 50vw;
+.section-main-title-2 {
   color: #000000;
   font-family: "Roboto Slab", serif;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 500;
   text-transform: capitalize;
-  text-align: center;
+  padding: 15px;
+  background-color: blue;
 }
 
-.section-paragraphy-left {
+.section3-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: blue;
+}
+
+.section-main-title-3 {
+  color: #000000;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 30px;
+}
+
+.section3-paragraphy {
   font-size: 16px;
   color: #000000;
   text-align: center;
 }
 
-.fa-heart {
-  color: red;
-}
+// .fa-heart {
+//   color: red;
+// }
