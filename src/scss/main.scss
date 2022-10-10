@@ -15,6 +15,7 @@
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
   background-color: #ffffff;
+  font-size: 62.5%;
 }
 
 // HEADER
@@ -67,22 +68,30 @@ header {
   line-height: 32px;
 }
 
+.container-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  transform: translateY(20px);
+}
+
 .icon-arrow-down {
   width: 18px;
   height: 18px;
   padding: 10px;
   border-radius: 50%;
   background: white;
-  transform: translateY(20px);
 }
+
+// MAIN
 
 .main-container {
   display: flex;
   flex-direction: column;
   background-color: white;
 }
-
-// SECTION 2
 
 .small-text {
   color: #8ccbea;
@@ -98,6 +107,7 @@ header {
   font-family: "Roboto Slab", serif;
   font-size: 24px;
   font-weight: 500;
+  padding-right: 15px;
   text-transform: capitalize;
   padding: 15px;
 }
@@ -106,7 +116,9 @@ header {
   color: #4a4a4a;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  margin-top: 10px;
   padding-left: 15px;
+  padding-right: 15px;
   font-weight: 350;
   line-height: 24px;
 }
@@ -114,12 +126,13 @@ header {
 .container-button-medium {
   display: flex;
   justify-content: center;
-  width: 30px;
-  padding: 10px 32px;
+  width: 76px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   position: relative;
   margin-left: 15px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 26px;
+  margin-bottom: 45px;
   border: 2px solid #f26002;
   background-color: transparent;
   border-radius: 24px;
@@ -147,8 +160,6 @@ header {
   text-transform: capitalize;
   padding: 24px;
 }
-
-// SECTION 3
 
 .container-large {
   height: 98vh;
@@ -183,8 +194,6 @@ header {
   font-family: "Roboto", sans-serif;
   line-height: 24px;
 }
-
-/*BUTTON LARGE */
 
 .container-button-large {
   display: flex;
@@ -283,4 +292,33 @@ header {
   animation-duration: 2s; /* don't forget to set a duration! */
   animation-iteration-count: infinite;
   cursor: pointer;
+}
+
+// MEDIA QUERIES
+
+@media (min-width: 768px) {
+  .small-text {
+    padding-left: 39px;
+    margin-top: 40px;
+  }
+
+  .section-main-title-1 {
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 39px;
+  }
+
+  .section-paragraphy {
+    font-size: 20px;
+    padding-left: 39px;
+    padding-right: 39px;
+    font-weight: 350;
+    line-height: 24px;
+  }
+
+  .container-button-medium {
+    margin-left: 39px;
+    margin-top: 27px;
+    margin-bottom: 50px;
+  }
 }
