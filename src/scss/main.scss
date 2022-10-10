@@ -39,7 +39,7 @@ header {
   flex-direction: flex-start;
   position: fixed;
   background-color: #0171bb;
-  padding: 15px;
+  padding: 1.5rem;
   z-index: 1;
 }
 
@@ -49,23 +49,23 @@ header {
   color: white;
   text-align: center;
   align-items: center;
-  margin-top: 300px;
+  margin-top: 30rem;
 }
 
 .header-title {
   justify-content: center;
-  font-size: 42px;
+  font-size: 4.2rem;
   text-transform: uppercase;
-  line-height: 55px;
+  line-height: 5.5rem;
   font-weight: 500;
 }
 
 .header-subtitle {
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 350;
-  line-height: 32px;
+  line-height: 3.2rem;
 }
 
 .container-icon {
@@ -78,9 +78,9 @@ header {
 }
 
 .icon-arrow-down {
-  width: 18px;
-  height: 18px;
-  padding: 10px;
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 1rem;
   border-radius: 50%;
   background: white;
 }
@@ -96,46 +96,47 @@ header {
 .small-text {
   color: #8ccbea;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  margin-top: 50px;
+  font-size: 1.4rem;
+  margin-top: 6.0rem;
   text-transform: capitalize;
-  padding-left: 15px;
+  padding-left: 1.5rem;
 }
 
 .section-main-title-1 {
   color: #000000;
   font-family: "Roboto Slab", serif;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
-  padding-right: 15px;
+  margin-top: 1.0rem;
+  padding-left: 1.5rem;
   text-transform: capitalize;
-  padding: 15px;
+  line-height: 2.9rem;
 }
 
 .section-paragraphy {
   color: #4a4a4a;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  margin-top: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  font-size: 1.8rem;
+  margin-top: 1.0rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   font-weight: 350;
-  line-height: 24px;
+  line-height: 2.4rem;
 }
 
 .container-button-medium {
   display: flex;
   justify-content: center;
-  width: 76px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 7.6rem;
+  padding-top: 1.0rem;
+  padding-bottom: 1.0rem;
   position: relative;
-  margin-left: 15px;
-  margin-top: 26px;
-  margin-bottom: 45px;
-  border: 2px solid #f26002;
+  margin-left: 1.5rem;
+  margin-top: 2.6rem;
+  margin-bottom: 4.5rem;
+  border: 0.2rem solid #f26002;
   background-color: transparent;
-  border-radius: 24px;
+  border-radius: 2.4rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
@@ -148,17 +149,17 @@ header {
   color: #f26002;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 2.0rem;
   text-transform: capitalize;
 }
 
 .section-main-title-2 {
   color: #000000;
   font-family: "Roboto Slab", serif;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
   text-transform: capitalize;
-  padding: 24px;
+  padding: 2.4rem;
 }
 
 .container-large {
@@ -171,40 +172,40 @@ header {
 
 .section3-article {
   width: 50vw;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2.0rem;
+  margin-bottom: 2.0rem;
   justify-items: center;
 }
 
 .section-main-title-3 {
   color: #000000;
   font-family: "Roboto Slab", serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
   text-transform: none;
   text-align: center;
-  line-height: 30px;
+  line-height: 3.0rem;
 }
 
 .section3-paragraphy {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #000000;
   text-align: center;
   justify-content: center;
   font-family: "Roboto", sans-serif;
-  line-height: 24px;
+  line-height: 2.4rem;
 }
 
 .container-button-large {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px 24px;
+  padding: 1.0rem 2.4rem;
   position: relative;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   background-color: #f26002;
-  border-radius: 24px;
+  border-radius: 2.4rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
@@ -217,16 +218,16 @@ header {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-transform: none;
-  font-size: 20px;
+  font-size: 2.0rem;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   color: white;
 }
 
 .icon-arrow-up {
-  width: 18px;
-  height: 18px;
-  padding: 10px;
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 1.0rem;
   border-radius: 50%;
   background: white;
   transform: translateY(16px);
@@ -248,41 +249,41 @@ header {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  line-height: 32px;
+  line-height: 3.2rem;
+  font-size: 1.6rem;
 }
 
 .nav-div-categories {
   &:first-child {
-    margin-top: 50px;
+    margin-top: 6.5rem;
   }
   &:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 3.0rem;
   }
 }
 
 .nav-div-socialmedia {
   &:first-child {
-    margin-top: 0px;
+    margin-top: 0rem;
   }
   &:last-child {
-    margin-bottom: 20px;
+    margin-bottom: 3.0rem;
   }
 }
 
 .nav-div-small-text {
-  margin-top: 40px;
-  margin-bottom: 60px;
-  line-height: 32px;
+  margin-bottom: 3.0rem;
+  line-height: 3.2rem;
 }
 
 .footer-small-text {
   color: white;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .footer-small-text-love {
   color: white;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .fa-heart {
@@ -298,27 +299,27 @@ header {
 
 @media (min-width: 768px) {
   .small-text {
-    padding-left: 39px;
-    margin-top: 40px;
+    padding-left: 3.9rem;
+    margin-top: 4.0rem;
   }
 
   .section-main-title-1 {
-    font-size: 26px;
+    font-size: 2.6rem;
     font-weight: 500;
-    padding-left: 39px;
+    padding-left: 3.9rem;
   }
 
   .section-paragraphy {
-    font-size: 20px;
-    padding-left: 39px;
-    padding-right: 39px;
+    font-size: 2.0rem;
+    padding-left: 3.9rem;
+    padding-right: 3.9rem;
     font-weight: 350;
-    line-height: 24px;
+    line-height: 2.4rem;
   }
 
   .container-button-medium {
-    margin-left: 39px;
-    margin-top: 27px;
-    margin-bottom: 50px;
+    margin-left: 3.9rem;
+    margin-top: 2.7rem;
+    margin-bottom: 5.0rem;
   }
 }
