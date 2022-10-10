@@ -139,19 +139,13 @@ header {
   text-transform: capitalize;
 }
 
-.container-title {
-  display: grid;
-  text-align: center;
-  line-height: 50px;
-}
-
 .section-main-title-2 {
   color: #000000;
   font-family: "Roboto Slab", serif;
   font-size: 24px;
   font-weight: 500;
   text-transform: capitalize;
-  padding: 15px;
+  padding: 24px;
 }
 
 // SECTION 3
@@ -284,5 +278,9 @@ header {
 
 .fa-heart {
   color: red;
+  margin: 0 0.2rem;
+  animation: bounceOut; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-iteration-count: infinite;
   cursor: pointer;
 }
