@@ -164,14 +164,14 @@ header {
 }
 
 .container-large {
+  width: 100%;
   padding-top: 2rem;
   background-color: #eff9ff;
   display: grid;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 30px auto;
-  width: 180px;
+  margin: auto;
 }
 
 .box.article {
@@ -203,16 +203,6 @@ header {
   font-family: "Roboto", sans-serif;
   line-height: 2.4rem;
 }
-
-// .box-paragraphy {
-//   font-size: 1.6rem;
-//   color: #000000;
-//   text-align: center;
-//   justify-content: center;
-//   font-family: "Roboto", sans-serif;
-//   line-height: 2.4rem;
-//   max-width: 30ch;
-// }
 
 .container-button-large {
   display: flex;
@@ -320,6 +310,25 @@ header {
 // MEDIA QUERIES
 
 @media (min-width: 768px) {
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    align-items: center;
+    transform: translateY(-90px);
+  }
+
+
+  .header-title {
+    justify-content: center;
+    font-size: 8rem;
+    line-height: 9rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
   .small-text {
     padding-left: 3.9rem;
     margin-top: 4rem;
@@ -330,6 +339,7 @@ header {
     margin-top: 2rem;
     font-weight: 600;
     padding-left: 3.9rem;
+    margin-bottom: 35px;
   }
 
   .section-main-title-2 {
@@ -357,12 +367,6 @@ header {
 
   .button-medium-inside {
     width: auto;
-  }
-
-  .container-large {
-    width: 100vw;
-    height: 60vh;
-    margin: 0;
   }
 
   .box-h3 {
