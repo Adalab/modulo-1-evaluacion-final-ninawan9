@@ -39,6 +39,7 @@ header {
   position: fixed;
   background-color: #0171bb;
   padding: 15px;
+  z-index: 1;
 }
 
 .header-text {
@@ -78,6 +79,7 @@ header {
 .main-container {
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 // SECTION 2
@@ -109,27 +111,33 @@ header {
   line-height: 24px;
 }
 
-.button-medium {
+.container-button-medium {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  padding: 10px 32px;
+  position: relative;
+  margin-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid #f26002;
+  background-color: transparent;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.container-button-medium:hover {
+  transform: scale(1.1);
+}
+
+.button-medium-inside {
   color: #f26002;
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  font-weight: 450;
   text-transform: capitalize;
-  text-decoration: none;
-  margin-left: 15px;
-  line-height: 100px;
-  border: 2px solid #f26002;
-  border-radius: 24px;
-  padding-top: 10px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 10px;
 }
-
-.button-style {
-  
-}
-
 
 .container-title {
   display: grid;
@@ -182,20 +190,34 @@ header {
   line-height: 24px;
 }
 
-.button-large {
+/*BUTTON LARGE */
+
+.container-button-large {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 24px;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 25px;
   background-color: #f26002;
-  color: white;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.container-button-large:hover {
+  transform: scale(1.1);
+}
+
+.button-large-inside {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
   font-weight: 400;
   text-transform: none;
+  font-size: 20px;
   text-decoration: none;
-  line-height: 100px;
-  border-radius: 24px;
-  padding-top: 10px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 .icon-arrow-up {
@@ -204,7 +226,7 @@ header {
   padding: 10px;
   border-radius: 50%;
   background: white;
-  transform: translateY(15px);
+  transform: translateY(16px);
 }
 
 // FOOTER
