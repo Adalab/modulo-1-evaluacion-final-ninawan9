@@ -494,4 +494,121 @@ header {
     margin-left: 39px;
     margin-right: 60px;
   }
+
+  // DESKTOP
+
+  @media (min-width: 1280px) {
+    .header-text {
+      justify-items: center;
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    .header-title {
+      width: 50%;
+      justify-content: center;
+      font-size: 9rem;
+      text-transform: uppercase;
+      line-height: 12rem;
+      font-weight: 500;
+    }
+
+    .header-subtitle {
+      width: 30%;
+      font-size: 2.1rem;
+      font-weight: 400;
+      line-height: 2.5rem;
+      transform: translateY(10px);
+      padding: 0;
+    }
+
+    .icon-arrow-down {
+      width: 1.9rem;
+      height: 1.9rem;
+      padding: 1.1rem;
+      transform: translateY(100px);
+    }
+
+    .section-main-title-1 {
+      font-size: 2.7rem;
+      margin-top: 2rem;
+      font-weight: 600;
+      margin-left: 27.5rem;
+      margin-bottom: 35px;
+      padding: 0;
+    }
+
+    .small-text {
+      margin-left: 27.5rem;
+      margin-top: 6.5rem;
+      padding: 0;
+    }
+
+    .section-paragraphy {
+      width: 50%;
+      font-size: 2rem;
+      padding: 0;
+      margin-left: 27.5rem;
+      font-weight: 399;
+      line-height: 2.8rem;
+    }
+
+    .container-button-medium-1 {
+      width: fit-content;
+      justify-content: center;
+      padding: 1rem 5rem 1rem 5rem;
+      position: relative;
+      margin-left: 27.5rem;
+      margin-bottom: 4.5rem;
+    }
+
+    .container-large {
+      display: grid;
+      width: 100%;
+      justify-items: stretch;
+      text-align: center;
+    }
+
+    .section-main-title-2 {
+      font-size: 2.8rem;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    .box-paragraphy {
+      position: relative;
+      margin:0;
+      font-size: 1.7rem;
+    }
+
+    .box-h3 {
+      margin-top: 50px;
+      font-size: 2.4rem;
+      font-weight: 500;
+      line-height: 3rem;
+    }
+
+    .box.article-1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    .box.article-2 {
+      margin: 0;
+      padding: 0;
+    }
+
+    .box.article-3 {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container-button-large {
+      margin: 30px auto;
+      width: fit-content;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+  }
 }
