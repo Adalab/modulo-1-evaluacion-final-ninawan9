@@ -193,7 +193,6 @@ header {
   text-align: center;
 }
 
-
 .box-h3 {
   color: #000000;
   margin-top: 40px;
@@ -320,9 +319,9 @@ header {
 
 // MEDIA QUERIES
 
+// TABLET
+
 @media (min-width: 768px) {
-
-
   .background {
     background-image: url("../images/cover.jpeg");
     width: 100vw;
@@ -350,7 +349,6 @@ header {
     width: 1.9rem;
     height: 1.9rem;
     padding: 1.1rem;
-
   }
 
   .icon-arrow-up {
@@ -367,7 +365,6 @@ header {
   .container-button-medium-1 {
     margin-left: 3.9rem;
   }
-
 
   .header-title {
     justify-content: center;
@@ -404,7 +401,7 @@ header {
 
   .container-button-large {
     margin: 30px auto;
-    width: 180px;
+    width: fit-content;
   }
 
   .box-h3 {
@@ -450,5 +447,51 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+  }
+
+  .nav-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  .nav-div-categories {
+    order: 1;
+    &:first-child {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+    &:last-child {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+  }
+
+  .nav-div-socialmedia {
+    order: 2;
+    &:first-child {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+    &:last-child {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+  }
+
+  .nav-div-small-text {
+    order: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 39px;
+    margin-right: 60px;
   }
 }
